@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import 'tachyons'
-import Hello from './Hello';
+import RoboApp from './RoboApp';
 import * as serviceWorker from './serviceWorker';
+import './index.css'
 
-ReactDOM.render(<Hello name="Beryl" />, document.getElementById('root'));
+
+ReactDOM.render(<RoboApp />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
